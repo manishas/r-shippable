@@ -19,8 +19,8 @@ before_install:
   - sudo apt-get build-dep -y r-base-dev
   - sudo apt-get autoremove -y
   - sudo apt-get autoclean
-  - git config --global user.name "Yihui Xie"
-  - git config --global user.email "xie@yihui.name"
+  - git config --global user.name "Manisha Sahasrabudhe"
+  - git config --global user.email "manisha@shippable.name"
 
 install:
   - ls -l
