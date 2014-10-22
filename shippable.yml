@@ -3,6 +3,8 @@
 
 language: python
 
+cache: true
+
 before_install:
   - sudo apt-get update -qq
   ## Deal with stupid issue on the shippable/minv2 docker image
