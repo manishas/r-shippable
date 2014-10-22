@@ -35,5 +35,4 @@ script:
 notifications:
   email:
     - manisha@shippable.com
-    on_success: always
-    on_failure: always
+
