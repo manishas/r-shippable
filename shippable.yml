@@ -29,7 +29,7 @@ install:
   - ./install-r-devel
 
 script:
-  - "[ ! -d ~/R ] && mkdir -p ~/R"
+  - "mkdir -p ~/R"
   - cp .Renviron .Rprofile ~/
   - R -f r-config.R
   - Rd -f r-config.R
